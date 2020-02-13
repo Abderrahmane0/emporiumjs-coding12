@@ -9875,5 +9875,34 @@ h3 {
     border-color: #dee2e6;
   }
 }
+#section1 {
+  background-color: #f3f3f3;
+}
+
+#section2 #bilou1 {
+  background-image: url("../../public/img/services/service-1.jpg");
+  background-size: cover;
+  width: 100%;
+}
+#section2 #bilou2 {
+  background-image: url("../../public/img/services/service-2.jpg");
+  background-size: cover;
+  width: 100%;
+}
+#section2 #bilou3 {
+  background-image: url("../../public/img/services/slider-3.jpg");
+  background-size: cover;
+  width: 100%;
+}
+#section2 div {
+  border: 5px solid white;
+}
+#section2 div h4 {
+  color: white;
+  font-weight: bold;
+}
+#section2 div hr {
+  height: 2px;
+}
 
 /*# sourceMappingURL=style.css.map */

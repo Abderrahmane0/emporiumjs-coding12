@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +8,224 @@
     <title>Emporium</title>
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body>
-<!-------------------- NAVBAR -->
-<header>
-    <div class="justify-content-center d-flex my-5 py-3">
-        <h1 class="font-weight-bold text-dark">Emporium.</h1>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNav"
-        >
-            <ul class="navbar-nav w-75 justify-content-around">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">PRODUCT</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">ELEMENTS</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-                <li class="nav-item active">
-                    <button class="btn p-2 bg-white border-dark"></button>
-                    <button class="btn p-2 bg-dark border-white"></button>
-                    <button class="btn btn-success" type="button">CONNEXION</button>
-                </li>
-            </ul>
+    <!--------------------haeder -->
+    <header>
+        <div class="justify-content-center d-flex my-5 py-3">
+            <h1 class="font-weight-bold text-dark">emporium.</h1>
         </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav w-75 justify-content-around">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ELEMENTS</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <button class="btn p-2 bg-white border-dark"></button>
+                        <button class="btn p-2 bg-dark border-white"></button>
+                        <button class="btn btn-secondary" type="button">Connexion</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- haeder------------------------------------------ -->
+
+    <!-- section1-------------------------- -->
+
+    <section id="section1">
+        <div class="container mt-3" id="container1">
+            <div class="row">
+
+                <div
+                    class="col-lg-7 col-sm-12 my-4 d-flex flex-column justify-content-center justify-content-sm-center">
+                    <h1 class="text-danger">Shop at</h1>
+                    <div>
+                        <img class="w-75" src="./public/img/logo.png" alt="" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                        dolor magnam natus. Nesciunt eligendi recusandae.
+                    </p>
+                    <div>
+                        <button class="btn rounded-pill btn-danger p-3 w-50">
+                            SALE ITEMS
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-12 my-4">
+
+                    <img class="w-100" src="./public/img/slider-1.jpg" alt="" />
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section1-------------------------------------- -->
 
 
+    <!-- section2----------------------------------- -->
+    <section id="section2">
+        <div class="container-fluid" id="container2">
+            <div class="row d-flex">
+                <div class="col-lg-4 col-sm-12 my-4 text-center py-3" id="bilou1">
+                    <h4 class="mt-5">Living Room</h4>
+                    <hr class="mb-5 bg-white w-75">
+                </div>
+                <div class="col-lg-4 col-sm-12 my-4 text-center py-3" id="bilou2">
+                    <h4 class="mt-5">Sale Items</h4>
+                    <hr class="mb-5 bg-white w-75">
+                </div>
+                <div class="col-lg-4 col-sm-12 my-4 text-center py-3" id="bilou3">
+                    <h4 class="mt-5">Clothes</h4>
+                    <hr class="mb-5 bg-white w-75">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section2------------------------------------------ -->
+
+    <!-- section3------------------------------------------ -->
+
+    <section id="section3">
+        <div class="container">
+            <h5 class="text-center font-weight-bold">Recent Product </h5>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 my-4">
+                    <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="" class="img-fluid">
+                    <div>
+                        <h6 class="font-weight-bold text-center my-3">Luxury Sofa</h6><br>
+                        <h6 class="text-center text-danger">$ 600.00</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 my-4">
+                    <div>
+                        <img src="./public/img/products_mini/product-gloves.jpg" alt="" class="img-fluid">
+                    </div>
+                        <div class="d-flex align-items-center justify-content-around">
+                            <h5 class="btn-danger rounded-pill p-2 py-4"> <span class="">SALE!</span> </h5>
+
+                            <div>
+                                <h6 class="font-weight-bold my-3">Leather Gloves</h6><br>
+                                <h6 class="text-center text-danger"><s class="text-secondary">$34.00</s> $27.00</h6>
+                            </div>
+                        </div>
+                    
+
+                </div>
+
+                <div class="col-lg-4 col-sm-12 my-4"><img src="./public/img/products_mini/product-cups.jpg" alt=""
+                        class="img-fluid">
+                    <div>
+                        <h6 class="font-weight-bold text-center my-3">Colorful Bowl</h6><br>
+                        <h6 class="text-center text-danger">$18</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 
-<script src="./public/js/main.js"></script>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 my-4">
+                    <div>
+                        <img src="./public/img/products_mini/product-bag.jpg" alt="" class="img-fluid">
+                    </div>
+                        <div class="d-flex align-items-center justify-content-around">
+                            <h5 class="btn-danger rounded-pill p-2 py-4"> <span class="">SALE!</span> </h5>
+
+                            <div>
+                                <h6 class="font-weight-bold my-3">Woman Bag</h6><br>
+                                <h6 class="text-center text-danger"><s class="text-secondary">$420.00</s> $350.00</h6>
+                            </div>
+                        </div>
+                    
+
+                </div>
+
+                <div class="col-lg-4 col-sm-12 my-4"><img src="./public/img/products_mini/product-tshitr.jpg" alt=""
+                        class="img-fluid">
+                    <div>
+                        <h6 class="font-weight-bold text-center my-3">Minimal T-Shirt</h6><br>
+                        <h6 class="text-center text-danger">$15</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 my-4"><img src="./public/img/products_mini/product-plates.jpg" alt=""
+                        class="img-fluid">
+                    <div>
+                        <h6 class="font-weight-bold text-center my-3">Plates Set</h6><br>
+                        <h6 class="text-center text-danger">$30.00</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 my-4"><img src="./public/img/products_mini/product-modern-sofa.jpg"
+                        alt="" class="img-fluid">
+                    <div>
+                        <h6 class="font-weight-bold text-center my-3">Modern Sofa</h6><br>
+                        <h6 class="text-center text-danger">$900.00</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 my-4"><img src="./public/img/products_mini/product-bed.jpg" alt=""
+                        class="img-fluid">
+                    <div>
+                        <h6 class="font-weight-bold text-center my-3">Bed Linen</h6><br>
+                        <h6 class="text-center text-danger">$79</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 my-4"><img src="./public/img/products_mini/product-shoes.jpg" alt=""
+                        class="img-fluid">
+                    <div>
+                        <h6 class="font-weight-bold text-center my-3">Minimal Shoes</h6><br>
+                        <h6 class="text-center text-danger">$60.00</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section3------------------------------------------ -->
+
+<!-- section4-------------------------------- -->
+<section id="section4">
+    
+</section>
+<!-- section4-------------------------------- -->
+
+
+    <script src="./public/js/main.js"></script>
 </body>
+
 </html>
