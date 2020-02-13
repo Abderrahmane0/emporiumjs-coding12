@@ -1,6 +1,11 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss"
-
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css"
+@import "./_variables"
+@import "./_font"
+@import "./_icons"
 // Section 1 Fond
+
+body
+    font-family: $biloutxt
 
 #section1
     background-color: #f3f3f3
@@ -30,4 +35,10 @@
             font-weight: bold
         hr 
             height: 2px
-            
+#section4
+    background-image: url("../../public/img/cta-bg.jpg")
+    height: 750px
+    // width: 100%
+    background-position: center
+    background-size: cover
+    
