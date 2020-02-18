@@ -76,3 +76,38 @@ window.addEventListener('scroll',() =>{
 
 // fixed-nav---------------
 
+// caroussel--------------------
+let carousselBoutons = document.querySelectorAll('i.fa-circle')
+let caroussel = document.querySelectorAll('div.caroussel')
+
+carousselBoutons[0].addEventListener('click',()=>{
+    for (let i = 0; i < 8; i++) {
+        caroussel[i].classList.add('d-none')
+
+        if (i == 0 || i == 1 || i ==2 || i == 3) {
+            caroussel[i].classList.remove('d-none')
+        }
+    }
+})
+
+carousselBoutons[1].addEventListener('click',()=>{
+    for (let i = 0; i < 8; i++) {
+        caroussel[i].classList.add('d-none')
+
+        if (i == 2 || i == 3 || i ==4 || i == 5) {
+            caroussel[i].classList.remove('d-none')
+        }
+    }
+})
+
+carousselBoutons[2].addEventListener('click',()=>{
+    for (let i = 0; i < 8; i++) {
+        caroussel[i].classList.add('d-none')
+
+        if (i == 4 || i == 5 || i ==6 || i == 7) {
+            caroussel[i].classList.remove('d-none')
+        }
+    }
+})
+
+// caroussel-------------------
